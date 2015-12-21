@@ -1,27 +1,34 @@
-## Laravel PHP Framework
+# Pawsitively Sol Good 
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+## Live URL
+<http://p4.gguzman.me>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+## Description
+A website for a new company looking to sell organic and homemade treats and accessories for your pet.  The company is starting out small and hopes to grow in the future.  New customers are encouraged to register for an account and existing customers can login to place, edit and delete orders. 
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+## Demo
+<http://screencast.com/t/wFwPXgf3wf1v>
 
-## Official Documentation
+## Details for teaching team
+There are many areas for future development.  Including :
+- Improvement of Executing queries
+- Adding a cart feature which would include linking to PayPal for credit card payments
+-Remembering pet names in user profile so they can select from a drop down which pet to order for
+-Making a more dynamic ordering page (clickable thumbnail images)
+-Use photos of actual products to be incorporated into website, not generic pictures found on web.
+-Expand the model for size, create an independent table for accessories and treat sizes and prices and connect the tables, remove size & price columns from treat & accessory table
+-Increasing information about users (billing address, mailing address, option to be included on a mailing list for future promotions, etc.)
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
 
-## Contributing
+## Outside code
+*https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+*https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css
 
-## Security Vulnerabilities
+*https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/lumen/bootstrap.min.css
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+*http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css”>
 
-### License
+*https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/cerulean/bootstrap.min.css
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+Font in Logo provided by: http://bythebutterfly.com (This is a free font for non-commercial use.  If this site were to be live, the web designer would need to pay for an upgraded license to use on the site.)
