@@ -1,0 +1,140 @@
+/* http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/* End Box Sizing */
+
+/* http://mystrd.at/modern-clean-css-sticky-footer */
+html {
+    position:relative;
+    min-height:100%;
+}
+body {
+    margin:0 0 100px; /* bottom = footer height */
+}
+
+footer {
+    position: absolute;
+    left:0;
+    bottom:0;
+    height:30px;
+    width:100%;
+    background-color:#ccc;
+    text-align:center;
+    padding:5px;
+}
+/* End Sticky Footer */
+
+
+  header, nav {
+
+    /* padding-left:25px; */
+  /*  padding-left:600px; */
+  /*  margin-left:600px; */
+    padding-top:20px;
+    }
+
+    h2, h3, p{
+      padding-left: 20px;
+    }
+
+    nav {
+  /*    margin-left:550px;
+      padding-top:20px; */
+    }
+
+section{
+/*  margin-left:400px;
+  padding-top:20px; */
+}
+
+img {
+  /*  width: 100%;
+  height: auto; */
+}
+
+nav ul {
+    list-style-type:none;
+    margin:0;
+    /* padding:0; */
+     padding:0;
+}
+
+nav ul li {
+    display:inline;
+    /* background-color:#eee; */
+    padding:20px;
+    margin-right:5px;
+}
+
+ .treatscontainer > div {
+    width: 33%;
+  }
+
+  .accesoriescontainer > div {
+     width: 33%;
+   }
+
+.col1 {
+    float:left;
+}
+
+.col2 {
+  display: inline-block;
+}
+
+.col3 {
+  float:right;
+}
+
+.quantityinputbox{
+  line-height: 0.8em;
+}
+
+.EditDelete {
+  padding-left: 20px;
+}
+/*----------------------------------------------------
+Forms
+-----------------------------------------------------*/
+label {
+    margin-top:10px;
+    margin-bottom:0;
+    display:block;
+}
+
+.checkboxLabel, .radioLabel {
+    display:inline;
+}
+
+input[type=text],input[type=password],select {
+    width:300px;
+    font-size:20px;
+}
+
+ul.errors {
+    color:red;
+    margin:0;
+    margin-top:5px;
+    padding:0;
+    list-style-type:none;
+}
+
+/*----------------------------------------------------
+Flash message
+-----------------------------------------------------*/
+.flash_message {
+    width:100%;
+    text-align:center;
+    padding:5px;
+    position:fixed;
+    top:0;
+    left:0;
+    background-color:#3250A1;
+    color:white;
+    font-weight:bold;
+
+}
